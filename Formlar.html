@@ -1,0 +1,99 @@
+<! Formlar konusu hakkinda basit bir çalýþma->
+<html>
+	<head> <title> Formlar </title>
+	</head>
+	<body>
+		<table align="center" cellspacing="0" border="1">
+		<th colspan="2"> ÝÞ BAÞVURU FORMU </th> 
+		<tr>
+			<td align="center" width="100" height="100"> Ad Soyad: </td>
+			<td width="200" align="left" valign="middle"> 
+				<form>
+					<input type="text" value="Ad Soyad"size="25" name="isim"/>		
+			</td>	
+		</tr>
+		<tr>
+			<td align="center" width="100" height="100"> T.C No: </td>
+			<td width="200" align="left" valign="middle"> 
+				<form>
+					<input type="password" size="25" name="tc"/>		
+			</td>	
+		</tr>
+		<tr>
+			<td align="center"> Cinsiyet</td>
+			<td>
+				<input type="radio" name="cinsiyet" value="1"/> Erkek
+				<input type="radio" name="cinsiyet" value="1"/> Kadýn <br/>
+				<input type="radio" name="cinsiyet" value="1"/> Atak Helikopteri <br/>
+				<input type="radio" name="cinsiyet" value="1" checked="checked"/> Belirtmek Ýstemiyorum
+
+			</td>
+		</tr>
+		<tr>		
+			<td align="center"> Þehir: </td>
+		
+		
+			<td> <select name="sehir" title="Þehir"> 
+				<option name="sehir" value="1" selected="selected"> Þehir <br/>
+				<option name="sehir" value="1"> Samsun <br/>
+				<option name="sehir" value="1"> Ankara <br/>
+				<option name="sehir" value="1"> Ýstanbul <br/>
+				<option name="sehir" value="1"> Ýzmir <br/>
+				<option name="sehir" value="1"> Trabzon(öðhk) <br/>
+				<option name="sehir" value="1"> Rize(kustum) <br/>
+				<option name="sehir" value="1"> Kayseri <br/>
+				<option name="sehir" value="1"> Muðla <br/>
+				<option name="sehir" value="1"> Antalya <br/>
+				<option name="sehir" value="1"> Adana <br/>
+				<option name="sehir" value="1"> Diyarbakýr <br/>
+				<option name="sehir" value="1"> Artvin <br/>
+				<option name="sehir" value="1"> Çanakkale <br/>
+				<option name="sehir" value="1"> Sinop <br/>
+				<option name="sehir" value="1"> Ardahan <br/>
+			</td>
+		</tr>
+		<tr>
+		<td align="center"> Programlama Dilleri </td>
+			<td> 
+				<input type="checkbox" name="dil" value="1"/> C  
+				<input type="checkbox" name="dil" value="2"/> C++  
+				<input type="checkbox" name="dil" value="3"/> C# <br>
+				<input type="checkbox" name="dil" value="4"/> Python<br/> 
+				<input type="checkbox" name="dil" value="5"/> SQL <br/> 
+				<input type="checkbox" name="dil" value="6"/> PHP <br/> 
+				<input type="checkbox" name="dil" value="7"/>  Java <br/> 
+				<input type="checkbox" name="dil" value="8"/>  Java Script<br/> 
+				<input type="checkbox" name="dil" value="9"/>  Assembly (vay be) <br/> 
+				<input type="checkbox" name="dil" value=""/> Basic <br/> 
+				<input type="checkbox" name="dil" value=""/> R <br/> 
+				<input type="checkbox" name="dil" value=""/> GO <br/> 
+				<input type="checkbox" name="dil" value=""/> MATLAB <br/> 
+				<input type="checkbox" name="dil" value=""/> Swift <br/>
+				<input type="checkbox" name="dil" value=""/> Pascal <br/> 
+			</td>
+		</tr>
+		<tr>
+			<td align="center"> Fotoðraf Yükleyin</td>
+			<td>
+				<input type="file" name="foto"/> 
+			</td>
+		</tr>
+		<tr>
+			<td align="center"> E-Posta </td>
+			<td>
+				<input type="textbox" name="eposta" value="Ýletiþim için E-Posta Adresi"/> 
+			</td>
+		</tr>
+		<tr>
+			<td align="center"> 
+				<input type="submit" value="GÖNDER"/>
+			</td>
+			<td align="center"> 
+				<input type="reset" value="TEMÝZLE"/>
+		</tr>
+		
+		</form>
+		</table>
+	
+	</body>
+</html>
